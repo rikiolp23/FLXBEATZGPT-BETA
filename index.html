@@ -2,92 +2,78 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FlxBeatzGPT</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <div class="container">
-    <header>
-      <img src="assets/backround.png" alt="FlxBeatzGPT Logo" class="logo"/>
-      <h1>FlxBeatzGPT</h1>
-      <p class="subtitle">Canciones generadas por maquinita infernal artificial</p>
-    </header>
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>FlxBeatzGPT - Reproductor de Beats</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlxBeatzGPT - Beats Autogenerados</title>
   <style>
     body {
+      margin: 0;
+      padding: 0;
       background-color: #000;
       color: #fff;
       font-family: 'Arial', sans-serif;
       text-align: center;
-      padding: 40px;
     }
 
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
+      font-size: 2.2rem;
+      margin-top: 40px;
     }
 
-    .audio-container {
-      margin: 30px auto;
+    .audio-section {
+      margin: 40px auto;
       width: 90%;
       max-width: 600px;
-      background-color: #111;
-      border-radius: 12px;
+      background: #111;
       padding: 20px;
-      box-shadow: 0 0 20px rgba(0,255,255,0.2);
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
     }
 
     audio {
       width: 100%;
+      height: 40px;
       outline: none;
     }
 
-    h2 {
-      font-size: 1.3rem;
-      margin-bottom: 10px;
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      h2 {
+        font-size: 1rem;
+      }
+
+      .audio-section {
+        padding: 15px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <h1>🎶 FlxBeatzGPT - Canciones Autogeneradas</h1>
+  <h1>🎵 FlxBeatzGPT</h1>
 
-  <div class="audio-container">
-    <h2> Cyber Drift 💯</h2>
-    <audio controls>
+  <div class="audio-section">
+    <h2>Cyber Drift💯</h2>
+    <audio controls preload="metadata">
       <source src="assets/audio/_song1_.mp3" type="audio/mpeg">
-      Tu navegador no soporta el audio HTML5.
+      Tu navegador no soporta el elemento de audio.
     </audio>
   </div>
 
-  <div class="audio-container">
-    <h2> Mindscape🔥</h2>
-    <audio controls>
+  <div class="audio-section">
+    <h2> Mindscape 🔥</h2>
+    <audio controls preload="metadata">
       <source src="assets/audio/_song2_.mp3" type="audio/mpeg">
-      Tu navegador no soporta el audio HTML5.
+      Tu navegador no soporta el elemento de audio.
     </audio>
   </div>
 
-</body>
-</html>
-
-
-    
-      </section>
-    </main>
-
-    <footer>
-      <p>&copy; 2025 FlxBeatzGPT - Proyecto Beta</p>
-    </footer>
-  </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
