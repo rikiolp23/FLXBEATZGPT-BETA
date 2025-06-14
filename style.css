@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #000000, #110022);
+  color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  animation: pulse 2s infinite;
+}
+
+.subtitle {
+  color: #ccc;
+  font-style: italic;
+}
+
+.song {
+  background: #1a1a1a;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ff00ff50;
+  transition: transform 0.2s ease;
+}
+
+.song:hover {
+  transform: scale(1.02);
+}
+
+audio {
+  width: 100%;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #999;
+}
+
+/* Login styles */
+.login-body {
+  background: linear-gradient(to bottom right, #000000, #1a001a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.login-container {
+  text-align: center;
+  background: #111;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 0, 200, 0.3);
+}
+
+.login-container input {
+  padding: 0.7rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+}
+
+.login-container button {
+  padding: 0.7rem 1.5rem;
+  background: #ff00cc;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.login-container button:hover {
+  background: #ff33dd;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url("assets/fondo.png") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+.audio-player {
+  background: #111111dd;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #ff00ff55;
+  margin: 2rem 0;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.audio-player:hover {
+  transform: scale(1.02);
+}
+
+.audio-player h2 {
+  color: #ff00cc;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+audio {
+  width: 100%;
+  outline: none;
+  border-radius: 8px;
+}
+.audio-player {
+  margin: 20px auto;
+  text-align: center;
+}
+audio {
+  width: 80%;
+  max-width: 600px;
+}
