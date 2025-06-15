@@ -133,11 +133,20 @@ audio {
   outline: none;
   border-radius: 8px;
 }
-.audio-player {
-  margin: 20px auto;
+.image-showcase {
   text-align: center;
+  margin: 3rem 0;
 }
-audio {
-  width: 80%;
+
+.image-showcase img {
+  width: 100%;
   max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.image-showcase img:hover {
+  transform: scale(1.03);
+  filter: brightness(1.1);
 }
